@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D20FAC59-9E6B-43CD-972E-90E39A8C7EF1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1 -BC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build --check-stamp-file C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\docs\Doxyfile.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw_config.h.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3.pc.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\cmake_uninstall.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1 -BC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build --check-stamp-file C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\docs\Doxyfile.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw_config.h.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3.pc.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\cmake_uninstall.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1 -BC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build --check-stamp-file C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\docs\Doxyfile.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw_config.h.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3.pc.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\cmake_uninstall.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1 -BC:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build --check-stamp-file C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3Config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\docs\Doxyfile.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw_config.h.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\src\glfw3.pc.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\cmake_uninstall.cmake.in;C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/ZERO_CHECK.vcxproj">
+      <Project>5E2B1274-4CAF-4F9E-902E-3D25283D02FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/accuracy.vcxproj">
+      <Project>8A1879B6-5D3F-4F83-9434-EA9DFF38A917</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/boing.vcxproj">
+      <Project>53C8BFC7-D2CB-472C-B148-0EBF93013753</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/clipboard.vcxproj">
+      <Project>F3FCA897-8CF6-492A-A423-C2D3D49B80CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/cursor.vcxproj">
+      <Project>55D94BAC-04B8-4721-A569-B25E9AC98D64</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/cursoranim.vcxproj">
+      <Project>B6E8DAB9-E4B8-4884-A642-742CAC0C865A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/defaults.vcxproj">
+      <Project>3A63A3B1-D4A4-49C2-B4E4-91D866C9A312</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/empty.vcxproj">
+      <Project>4B75C565-5D46-43B7-BD2C-FF596FA6C4E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/events.vcxproj">
+      <Project>D003B6B3-F78A-4D64-B757-08ECC4B2EBF8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/fsaa.vcxproj">
+      <Project>041F6C86-BF89-4DCF-9E50-F217A4E43725</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/gamma.vcxproj">
+      <Project>3CFB6332-7920-424D-B900-4FFDE00B721B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/gears.vcxproj">
+      <Project>43DA8F91-0D35-4551-8193-7F8A7D7FDAB7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/src/glfw.vcxproj">
+      <Project>9C4C1C07-0BC2-404E-873A-B6069AEE693A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/glfwinfo.vcxproj">
+      <Project>8506FA61-1E4B-4106-B885-D1D8384E31BB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/heightmap.vcxproj">
+      <Project>DC86E4F9-4198-48F7-B127-A81E241617A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/iconify.vcxproj">
+      <Project>E8360C31-FADB-432F-A877-0D607FBBF1B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/joysticks.vcxproj">
+      <Project>247C8B14-FE08-4DC7-BF39-97EBFE00EAF0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/monitors.vcxproj">
+      <Project>59965FE3-BD8D-416C-A075-00EE59957C0E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/particles.vcxproj">
+      <Project>B627DC3F-EE32-4909-9D0E-FF6938113B58</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/peter.vcxproj">
+      <Project>4AB06FCE-0C08-49FD-B5C4-0C035639E45A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/reopen.vcxproj">
+      <Project>F3F63152-B822-4EB6-8E3E-DF159790D193</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/sharing.vcxproj">
+      <Project>9824FC43-FC50-4A06-AE45-9501191CEA7C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/simple.vcxproj">
+      <Project>6DB24FF1-93F1-4B0A-8BDB-FC5021977303</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/splitview.vcxproj">
+      <Project>4368E1AB-CF4A-46BE-89E9-AC0D267BDD50</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/tearing.vcxproj">
+      <Project>15020D43-2804-4CBB-B7C2-E425080BF964</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/threads.vcxproj">
+      <Project>64F6BA4D-7523-4BE2-9FB7-D809C06AD26B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/title.vcxproj">
+      <Project>F190B9BF-B62D-483D-B120-9ACD59960CF7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/wave.vcxproj">
+      <Project>869A82E3-61EC-446F-944A-C3156488A6E0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/windows.vcxproj">
+      <Project>9C6E813C-FC91-4F19-85AD-2848DB6DE250</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

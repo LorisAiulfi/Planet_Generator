@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\examples\particles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\deps\tinycthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\deps\tinycthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B6B7DDB-8F54-4471-BC9F-B6353B07AF0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{807ADF1B-8615-46C8-9499-23B0C2F32014}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

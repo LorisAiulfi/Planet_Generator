@@ -1,0 +1,10 @@
+﻿La génération a démarré 06/09/2015 00:37:23.
+     1>Projet "C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\ALL_BUILD.vcxproj" sur le nœud 3 (Build cible(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\CMakeFiles\generate.stamp is up-to-date.
+     1>Génération du projet "C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\ALL_BUILD.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.19

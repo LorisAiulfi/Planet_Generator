@@ -1,0 +1,13 @@
+﻿La génération a démarré 06/09/2015 00:37:15.
+     1>Projet "C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\ZERO_CHECK.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/src/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/examples/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/Loris/Documents/OpenGl_projectPerso/glfw-3.1.1/build/tests/CMakeFiles/generate.stamp is up-to-date.
+     1>Génération du projet "C:\Users\Loris\Documents\OpenGl_projectPerso\glfw-3.1.1\build\ZERO_CHECK.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.81
