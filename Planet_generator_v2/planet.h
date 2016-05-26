@@ -157,7 +157,7 @@ public:
 		check_error_gl();
 	}
 
-	void draw(	const mat4& tb_M, const mat4& V, const mat4& P, const vec3& eye, const vec3& eye_dir, 
+	void draw(	const mat4& tb_M, const mat4& V, const mat4& P, const vec3& eye, const vec3& eye_dir, const vec3& up,
 				const float nearDist, const float farDist, const float hNear, const float wNear, const float hFar, const float wFar) {
 		// Checking eye value
 		//std::cout << "Camera Position : (" << eye.x() << " , " << eye.y() << " , " << eye.z() << std::endl;
@@ -178,6 +178,7 @@ public:
 		mat4 vp = P * V;
 		glUniformMatrix4fv(glGetUniformLocation(pid, "VP"), 1, GL_FALSE, vp.data());
 
+		glUniform3fv(glGetUniformLocation(pid, "up"), 1, up.data());
 		glUniform3fv(glGetUniformLocation(pid, "eye"), 1, eye.data());
 		glUniform3fv(glGetUniformLocation(pid, "eye_dir"), 1, eye_dir.data());
 		glUniform1f(glGetUniformLocation(pid, "near_dist"), nearDist);

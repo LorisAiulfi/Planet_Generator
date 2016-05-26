@@ -23,6 +23,6 @@ c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsuppor
 c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(30): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
 c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(31): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
 c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
-LINK : warning LNK4098: conflit entre la bibliothÞque par dÚfaut 'LIBCMT' et les autres bibliothÞquesá; utilisez /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' n'a pu Ûtre trouvÚ avec 'glew32s.lib(glew.obj)' ou sur 'C:\Users\Loris\documents\visual studio 2015\Projects\Planet_generator_v2\Debug\vc120.pdb'á; l'objet sera liÚ sans informations de dÚbogage
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur 'C:\Users\Loris\documents\visual studio 2015\Projects\Planet_generator_v2\Debug\vc120.pdb' ; l'objet sera lié sans informations de débogage
   Planet_generator_v2.vcxproj -> C:\Users\Loris\documents\visual studio 2015\Projects\Planet_generator_v2\Debug\Planet_generator_v2.exe

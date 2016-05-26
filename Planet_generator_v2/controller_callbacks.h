@@ -54,14 +54,14 @@ private:
 	}
 
 	void rotate_cw() {
-		mat4 transform = Eigen::Affine3f(Eigen::AngleAxisf(M_PI * -ROTATION_SPEED, *view_dir)).matrix();
+		mat4 transform = Eigen::Affine3f(Eigen::AngleAxisf(M_PI * ROTATION_SPEED, *view_dir)).matrix();
 		vec4 up4 = vec4(up->x(), up->y(), up->z(), 1.0f);
 		up4 = transform * up4;
 		*up = vec3(up4.x(), up4.y(), up4.z());
 	}
 
 	void rotate_ccw() {
-		mat4 transform = Eigen::Affine3f(Eigen::AngleAxisf(M_PI * ROTATION_SPEED, *view_dir)).matrix();
+		mat4 transform = Eigen::Affine3f(Eigen::AngleAxisf(M_PI * -ROTATION_SPEED, *view_dir)).matrix();
 		vec4 up4 = vec4(up->x(), up->y(), up->z(), 1.0f);
 		up4 = transform * up4;
 		*up = vec3(up4.x(), up4.y(), up4.z());

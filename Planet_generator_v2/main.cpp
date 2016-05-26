@@ -87,7 +87,7 @@ void display() {
 	glClearColor(0.2, 0.4, 0.5, 1);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	planet.draw(trackball_matrix, V, P, eye, eye_dir, NEAR_PLANE, FAR_PLANE, hNear, wNear, hFar, wFar);
+	planet.draw(trackball_matrix, V, P, eye, eye_dir, up, NEAR_PLANE, FAR_PLANE, hNear, wNear, hFar, wFar);
 }
 
 int main(int, char**) {
