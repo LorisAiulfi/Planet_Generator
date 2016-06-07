@@ -1,2 +1,26 @@
 ﻿  main.cpp
-c:\users\loris\documents\visual studio 2015\projects\planet_generator\planet_generator_v2\common.h(5): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+c:\users\loris\documents\opengl_projectperso\include\opengp\surface_mesh\io_off.cpp(80): warning C4305: 'argument' : troncation de 'double' à 'const float'
+c:\users\loris\documents\opengl_projectperso\include\opengp\surface_mesh\io_off.cpp(324): warning C4244: 'initialisation' : conversion de 'const float' en 'int', perte possible de données
+c:\users\loris\documents\opengl_projectperso\include\opengp\surface_mesh\io_off.cpp(359): warning C4244: 'initialisation' : conversion de 'const float' en 'int', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\trackball.h(24): warning C4244: 'argument' : conversion de 'double' en 'const float', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(24): warning C4305: 'argument' : troncation de 'double' à 'const float'
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(57): warning C4305: 'argument' : troncation de 'double' à 'const float'
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(64): warning C4305: 'argument' : troncation de 'double' à 'const float'
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(71): warning C4244: 'argument' : conversion de 'double' en 'const float', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(80): warning C4244: 'argument' : conversion de 'double' en 'const float', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\controller_callbacks.h(166): warning C4244: 'argument' : conversion de 'double' en 'const float', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\planet.h(101): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\main.cpp(67): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\main.cpp(69): warning C4244: '=' : conversion de 'double' en 'GLfloat', perte possible de données
+c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\main.cpp(87): warning C4305: 'argument' : troncation de 'double' à 'GLclampf'
+c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(28): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+  c:\users\loris\documents\visual studio 2015\projects\planet_generator_v2\planet_generator_v2\main.cpp(58): note: voir la référence à l'instanciation de la fonction modèle 'Eigen::Matrix<float,4,4,0,4,4> Eigen::perspective<float>(Scalar,Scalar,Scalar,Scalar)' en cours de compilation
+          with
+          [
+              Scalar=float
+          ]
+c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(29): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(30): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(31): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\loris\documents\opengl_projectperso\include\opengp\gl\eigenopenglsupport3.h(34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Planet_generator_v2.vcxproj -> C:\Users\Loris\documents\visual studio 2015\Projects\Planet_generator_v2\Debug\Planet_generator_v2.exe

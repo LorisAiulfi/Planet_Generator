@@ -3,6 +3,7 @@
 layout(vertices = 3) out;
 in vec3 vPosition[];
 out vec3 tcPosition[];
+out flat float tessLvl[];
 
 uniform vec3 up;
 uniform vec3 eye;
@@ -52,12 +53,16 @@ float getTessLvl(float dist0, float dist1, float dist2 = 0) {
 		return 20;
 	}
     else if (avgDist <= 100) {
-        return 10.0;
+        return 5;
     }
     else {
         return 1.0;
     }
 }
+
+//float screenSpaceTessLvl() {
+//	return 0;
+//}
 
 bool inFrustum(vec3 p) {
 	vec3 right = normalize(cross(eye_dir, up));
@@ -109,12 +114,21 @@ void main() {
 	float eyeToV1 = distance(eye, vPosition[1]);
 	float eyeToV2 = distance(eye, vPosition[2]);
 
+	float lvlCenter = getTessLvl(eyeToV0, eyeToV1, eyeToV2);
+	tessLvl[ID] = lvlCenter;
+
 	if(ID == 0) {
 		if(inFrustum(vPosition[0]) && inFrustum(vPosition[1]) && inFrustum(vPosition[2])) {
-			gl_TessLevelOuter[0] = getTessLvl(eyeToV1, eyeToV2);
-			gl_TessLevelOuter[1] = getTessLvl(eyeToV2, eyeToV0);
-			gl_TessLevelOuter[2] = getTessLvl(eyeToV0, eyeToV1);
-			gl_TessLevelInner[0] = getTessLvl(eyeToV0, eyeToV1, eyeToV2);
+			
+			float lvl1 = getTessLvl(eyeToV1, eyeToV2);
+			float lvl2 = getTessLvl(eyeToV2, eyeToV0);
+			float lvl3 = getTessLvl(eyeToV0, eyeToV1);
+			float lvl4 = lvlCenter;
+
+			gl_TessLevelOuter[0] = lvl1;
+			gl_TessLevelOuter[1] = lvl2;
+			gl_TessLevelOuter[2] = lvl3;
+			gl_TessLevelInner[0] = lvl4;
 		} else {
 			gl_TessLevelOuter[0] = 0;
 			gl_TessLevelOuter[1] = 0;
