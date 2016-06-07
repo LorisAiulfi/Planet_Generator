@@ -77,11 +77,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Loris\Documents\Visual Studio 2015\Projects\Planet_Generator\external_libs\include\OpenGP;C:\Users\Loris\Documents\Visual Studio 2015\Projects\Planet_Generator\external_libs\include\GLFW;C:\Users\Loris\Documents\Visual Studio 2015\Projects\Planet_Generator\external_libs\include\GL;C:\Users\Loris\Documents\Visual Studio 2015\Projects\Planet_Generator\external_libs\include\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\Loris\Documents\Visual Studio 2015\Projects\Planet_Generator\external_libs\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
